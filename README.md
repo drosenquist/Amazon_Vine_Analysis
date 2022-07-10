@@ -1,6 +1,6 @@
 # Amazon_Vine_Analysis
 ## Background
-Using PySpark, perform the ETL process to extract an Amazon reviews dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Then, using PySpark determine if there is any bias toward favorable reviews from Vine members in the dataset. 
+Using PySpark, perform the ETL process to extract an Amazon reviews dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Then, using PySpark determine if there is any bias toward favorable reviews from Vine members in the dataset. The dataset chosen was reviews for major appliances. Dataset can be found [here](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Major_Appliances_v1_00.tsv.gz).
 
 ## Results
 * There were 35 Vine reviews and 4957 non-Vine reviews.
